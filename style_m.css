@@ -1,0 +1,2514 @@
+html, body {
+    height: 100%;
+}
+
+.yeseva-one-regular {
+    font-family: "Yeseva One";
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  .poppins-regular {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    position: relative;
+    width: 1903px;
+    height: 104px;
+    left: -8px;
+    top: 7px;
+    background-color: white;
+    
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #000;
+}
+
+.menu__logo {
+    position: absolute;
+   font-size: 52px;
+    font-family: 'yeseva-one-regular';
+    height: 103px;
+    margin-top: -12px;
+    margin-left: 760px; 
+ 
+
+}
+
+.menu__header__nav {
+    position: absolute;
+    width: 720px;
+    height: 15px;
+    left: 505px;
+    top: 72px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    
+}
+.menu__header__list {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+}   
+
+.menu__header__link {
+    color: black;
+    text-decoration: none;
+    margin-right: 60px;
+}
+.product__link {
+    color: black;
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+.menu___search-bar {
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-size: 16px;   
+    width: 860px;
+    left: 505px;
+    
+  }
+
+  .prof{
+    position: absolute;
+    top: 172px;
+
+}
+  
+  #prof_fon {
+    position: absolute;
+    top: 2px;
+    left: 105px;
+}
+
+.slider {
+    position: absolute;
+    width: 1903px;
+    height: 800px;
+    margin-left: -8px;
+    margin-top: -8px;
+    top: 172px;
+}
+
+.slider .swiper {
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+}
+
+.swiper-slide img {
+    position: relative;
+    width: 1907px;
+    height: 800px;
+    object-fit: cover;
+    vertical-align: middle;
+    filter: brightness(60%);
+}
+
+.tekst1{
+    color: #ffffff;
+    position: absolute;
+    top: 42px;
+    font-family: "yeseva-one-regular";
+   left: 790px;
+   font-size: 36px;
+}
+
+
+.tekst3{
+    color: #ffffff;
+    font-family: "yeseva-one-regular";
+    position: absolute;
+    top: 122px;
+    font-size: 240px;
+    left: 1290px;
+}
+
+
+.tekst2{
+    color: #ffffff;
+    font-family: "yeseva-one-regular";
+    position: absolute;
+    top: 492px;
+    left: 1496px;
+}
+
+
+
+.categories{
+    position: absolute;
+    top: 1052px;
+    left: 366px;
+}
+
+.product{
+    position: absolute;
+    top: 1352px;
+    left: 366px;
+}
+
+/*product_r1_1*/
+.product_row1_1{
+    position:absolute;
+	left: -140px;
+}
+.product_box1 { 
+	width:386px;
+	height:509px;
+	position:absolute;
+}
+.product_box_shadow1 { 
+	box-shadow:0px 10px 4px rgba(0, 0, 0, 0.25);
+	width:386px;
+	height:509px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+.product_text1 { 
+	width:336px;
+	height:152px;
+	position:absolute;
+	left:25px;
+	top:315px;
+}
+.product__price1 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:98px;
+	height:23px;
+	position:absolute;
+	left:0px;
+	top:129px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:24px;
+	letter-spacing:-1;
+	line-height:px;
+}
+.product__status1 { 
+	color:rgba(255, 70.12499392032623, 70.12499392032623, 1);
+	width:142px;
+	height:23px;
+	position:absolute;
+	left:194px;
+	top:129px;
+	font-family:"Poppins";
+	text-align:right;
+	font-size:12px;
+	letter-spacing:-1;
+	line-height:px;
+}
+.product__reviews1 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:149px;
+	height:20.917808532714844px;
+	position:absolute;
+	left:0px;
+	top:78.95205688476562px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+}
+.product__name1 { 
+	width:232px;
+	height:49.899513244628906px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.product__title1 { 
+	color:rgba(138.00000697374344, 138.00000697374344, 138.00000697374344, 1);
+	width:56px;
+	height:13.945204734802246px;
+	position:absolute;
+	left:0px;
+	top:35.954307556152344px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:px;
+}
+.product__info1 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:232px;
+	height:35px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+}
+.product_row1_img1 { 
+	width:271px;
+	height:245px;
+	position:absolute;
+	left:53px;
+	top:28px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+/*product_r1_2*/
+.product_row1_2{
+    position:absolute;
+	left:320px;
+}
+.product_box2 { 
+	width:386px;
+	height:509px;
+	position:absolute;
+}
+.product_box_shadow2 { 
+	box-shadow:0px 10px 4px rgba(0, 0, 0, 0.25);
+	width:386px;
+	height:509px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+.product_text2 { 
+	width:336px;
+	height:152px;
+	position:absolute;
+	left:25px;
+	top:315.0000305175781px;
+}
+.product__price2 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:97px;
+	height:23px;
+	position:absolute;
+	left:0px;
+	top:129px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:24px;
+	letter-spacing:-1;
+	line-height:px;
+}
+.product__status2 { 
+	color:rgba(255, 70.12499392032623, 70.12499392032623, 1);
+	width:133px;
+	height:23px;
+	position:absolute;
+	left:203px;
+	top:129px;
+	font-family:"Poppins";
+	text-align:right;
+	font-size:12px;
+	letter-spacing:-1;
+	line-height:px;
+}
+.product__reviews1 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:149px;
+	height:20.917808532714844px;
+	position:absolute;
+	left:0px;
+	top:78.95205688476562px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+}
+.product__name2 { 
+	width:260px;
+	height:49.89954376220703px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.product__title2 { 
+	color:rgba(138.00000697374344, 138.00000697374344, 138.00000697374344, 1);
+	width:56px;
+	height:13.945205688476562px;
+	position:absolute;
+	left:0px;
+	top:35.95433807373047px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:px;
+}
+.product__info2 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:260px;
+	height:35px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+}
+.product_row1_img2 { 
+	width:280px;
+	height:253px;
+	position:absolute;
+	left:48px;
+	top:20px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+/*product_r1_3*/
+.product_row1_3{
+    position:absolute;
+	left:780px;
+}
+.product_box3 { 
+	width:386px;
+	height:509px;
+	position:absolute;
+}
+.product_box_shadow3 { 
+	box-shadow:0px 10px 4px rgba(0, 0, 0, 0.25);
+	width:386px;
+	height:509px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+.product_text3 { 
+	width:336px;
+	height:152px;
+	position:absolute;
+	left:25px;
+	top:314.99993896484375px;
+}
+.product__price3 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:107px;
+	height:23px;
+	position:absolute;
+	left:0px;
+	top:129px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:24px;
+	letter-spacing:-1;
+	line-height:px;
+}
+.product__status3 { 
+	color:rgba(255, 70.12499392032623, 70.12499392032623, 1);
+	width:133px;
+	height:23px;
+	position:absolute;
+	left:203px;
+	top:129px;
+	font-family:"Poppins";
+	text-align:right;
+	font-size:12px;
+	letter-spacing:-1;
+	line-height:px;
+}
+.product__reviews3 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:149px;
+	height:20.91780662536621px;
+	position:absolute;
+	left:0px;
+	top:78.95208740234375px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+}
+.product__name3 { 
+	width:269px;
+	height:49.89957809448242px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.product__title3 { 
+	color:rgba(138.00000697374344, 138.00000697374344, 138.00000697374344, 1);
+	width:56px;
+	height:13.945205688476562px;
+	position:absolute;
+	left:0px;
+	top:35.95437240600586px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:px;
+}
+.product__info3 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:269px;
+	height:35px;
+	position:absolute;
+	left:9.094947017729282e-13px;
+	top:0px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+}
+.product_row1_img3 { 
+	width:231px;
+	height:263px;
+	position:absolute;
+	left:83px;
+	top:28px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+/*product_r2_1*/
+.product_row2_1{
+    position:absolute;
+	left: -140px;
+    top: 620px;
+}
+.product_box4 { 
+	width:386px;
+	height:509px;
+	position:absolute;
+}
+.product_box_shadow4 { 
+	box-shadow:0px 10px 4px rgba(0, 0, 0, 0.25);
+	width:386px;
+	height:509px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+.product_text4 { 
+	width:346px;
+	height:152px;
+	position:absolute;
+	left:25px;
+	top:315px;
+}
+.product__price4 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:95px;
+	height:23px;
+	position:absolute;
+	left:0px;
+	top:129px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:24px;
+	letter-spacing:-1;
+	line-height:px;
+}
+.product__status4 { 
+	color:rgba(255, 70.12499392032623, 70.12499392032623, 1);
+	width:142px;
+	height:23px;
+	position:absolute;
+	left:194px;
+	top:129px;
+	font-family:"Poppins";
+	text-align:right;
+	font-size:12px;
+	letter-spacing:-1;
+	line-height:px;
+}
+.product__reviews4 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:149px;
+	height:20.917808532714844px;
+	position:absolute;
+	left:0px;
+	top:78.95205688476562px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+}
+.product__name4 { 
+	width:346px;
+	height:49.899513244628906px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.product__title4 { 
+	color:rgba(138.00000697374344, 138.00000697374344, 138.00000697374344, 1);
+	width:56px;
+	height:13.945204734802246px;
+	position:absolute;
+	left:0px;
+	top:35.954307556152344px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:px;
+}
+.product__info4 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:346px;
+	height:35px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+}
+.product_row2_img4 { 
+	width:280px;
+	height:253px;
+	position:absolute;
+	left:49px;
+	top:20px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+
+
+
+/*product_r2_2*/
+.product_row2_2{
+    position:absolute;
+	left:320px;
+    top: 620px;
+}
+
+.product_box5 { 
+	width:386px;
+	height:509px;
+	position:absolute;
+}
+.product_box_shadow5 { 
+	box-shadow:0px 10px 4px rgba(0, 0, 0, 0.25);
+	width:386px;
+	height:509px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+.product_text5 { 
+	width:336px;
+	height:152px;
+	position:absolute;
+	left:25px;
+	top:315.0000305175781px;
+}
+.product__price5 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:99px;
+	height:23px;
+	position:absolute;
+	left:0px;
+	top:129px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:24px;
+	letter-spacing:-1;
+	line-height:px;
+}
+.product__status5 { 
+	color:rgba(255, 70.12499392032623, 70.12499392032623, 1);
+	width:135px;
+	height:23px;
+	position:absolute;
+	left:201px;
+	top:129px;
+	font-family:"Poppins";
+	text-align:right;
+	font-size:12px;
+	letter-spacing:-1;
+	line-height:px;
+}
+.product__reviews5 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:149px;
+	height:20.917808532714844px;
+	position:absolute;
+	left:0px;
+	top:78.95205688476562px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+}
+.product__name5 { 
+	width:171px;
+	height:49.89954376220703px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.product__title5 { 
+	color:rgba(138.00000697374344, 138.00000697374344, 138.00000697374344, 1);
+	width:56px;
+	height:13.945205688476562px;
+	position:absolute;
+	left:0px;
+	top:35.95433807373047px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:px;
+}
+.product__info5 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:171px;
+	height:35px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+}
+.product_row2_img5 { 
+	width:223px;
+	height:202px;
+	position:absolute;
+	left:82px;
+	top:52px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+
+
+
+
+/*product_r2_3*/
+.product_row2_3{
+    position:absolute;
+	left:780px;
+    top: 620px;
+}
+.product_box6 { 
+	width:386px;
+	height:509px;
+	position:absolute;
+}
+.product_box_shadow6 { 
+	box-shadow:0px 10px 4px rgba(0, 0, 0, 0.25);
+	width:386px;
+	height:509px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+.product_text6 { 
+	width:336px;
+	height:152px;
+	position:absolute;
+	left:25px;
+	top:315px;
+}
+.product__price6 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:96px;
+	height:23px;
+	position:absolute;
+	left:0px;
+	top:129px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:24px;
+	letter-spacing:-1;
+	line-height:px;
+}
+.product__status6 { 
+	color:rgba(255, 70.12499392032623, 70.12499392032623, 1);
+	width:137px;
+	height:23px;
+	position:absolute;
+	left:199px;
+	top:129px;
+	font-family:"Poppins";
+	text-align:right;
+	font-size:12px;
+	letter-spacing:-1;
+	line-height:px;
+}
+.product__reviews6 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:149px;
+	height:20.91780662536621px;
+	position:absolute;
+	left:0px;
+	top:78.9520263671875px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+}
+.product__name6 { 
+	width:162px;
+	height:49.89951705932617px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.product__title6 { 
+	color:rgba(138.00000697374344, 138.00000697374344, 138.00000697374344, 1);
+	width:56px;
+	height:13.945205688476562px;
+	position:absolute;
+	left:0px;
+	top:35.95431137084961px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:px;
+}
+.product__info6 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:162px;
+	height:35px;
+	position:absolute;
+	left:9.094947017729282e-13px;
+	top:0px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+}
+.product_row2_img6 { 
+	width:279px;
+	height:253px;
+	position:absolute;
+	left:53px;
+	top:20px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+
+/*product_r3_1*/
+.product_row3_1{
+    position:absolute;
+	left: -140px;
+    top: 1220px;
+}
+.product_box7 { 
+	width:386px;
+	height:509px;
+	position:absolute;
+}
+.product_box_shadow7 { 
+	box-shadow:0px 10px 4px rgba(0, 0, 0, 0.25);
+	width:386px;
+	height:509px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+.product_text7 { 
+	width:336px;
+	height:152px;
+	position:absolute;
+	left:25px;
+	top:315px;
+}
+.product__price7 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:96px;
+	height:23px;
+	position:absolute;
+	left:0px;
+	top:129px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:24px;
+	letter-spacing:-1;
+	line-height:px;
+}
+.product__status7 { 
+	color:rgba(255, 70.12499392032623, 70.12499392032623, 1);
+	width:131px;
+	height:23px;
+	position:absolute;
+	left:205px;
+	top:129px;
+	font-family:"Poppins";
+	text-align:right;
+	font-size:12px;
+	letter-spacing:-1;
+	line-height:px;
+}
+.product__reviews7 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:149px;
+	height:20.917808532714844px;
+	position:absolute;
+	left:0px;
+	top:78.95205688476562px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+}
+.product__name7 { 
+	width:265px;
+	height:49.899513244628906px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.product__title7 { 
+	color:rgba(138.00000697374344, 138.00000697374344, 138.00000697374344, 1);
+	width:56px;
+	height:13.945204734802246px;
+	position:absolute;
+	left:0px;
+	top:35.954307556152344px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:px;
+}
+.product__info7 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:265px;
+	height:35px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+}
+.product_row2_img7 { 
+	width:224px;
+	height:202px;
+	position:absolute;
+	left:77px;
+	top:83px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+
+/*product_r3_2*/
+.product_row3_2{
+    position:absolute;
+	left:320px;
+    top: 1220px;
+}
+.product_box8 { 
+	width:386px;
+	height:509px;
+	position:absolute;
+}
+.product_box_shadow8 { 
+	box-shadow:0px 10px 4px rgba(0, 0, 0, 0.25);
+	width:386px;
+	height:509px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+.product_text8 { 
+	width:336px;
+	height:152px;
+	position:absolute;
+	left:25px;
+	top:315px;
+}
+.product__price8 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:93px;
+	height:23px;
+	position:absolute;
+	left:0px;
+	top:129px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:24px;
+	letter-spacing:-1;
+	line-height:px;
+}
+.product__status8 { 
+	color:rgba(255, 70.12499392032623, 70.12499392032623, 1);
+	width:135px;
+	height:23px;
+	position:absolute;
+	left:201px;
+	top:129px;
+	font-family:"Poppins";
+	text-align:right;
+	font-size:12px;
+	letter-spacing:-1;
+	line-height:px;
+}
+.product__reviews8 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:149px;
+	height:20.917808532714844px;
+	position:absolute;
+	left:0px;
+	top:78.95208740234375px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+}
+.product__name8 { 
+	width:267px;
+	height:49.899574279785156px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.product__title8 { 
+	color:rgba(138.00000697374344, 138.00000697374344, 138.00000697374344, 1);
+	width:56px;
+	height:13.945205688476562px;
+	position:absolute;
+	left:0px;
+	top:35.954368591308594px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:px;
+}
+.product__info8 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:267px;
+	height:35px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+}
+.product_row3_img8 { 
+	width:330px;
+	height:285px;
+	position:absolute;
+	left:25px;
+	top:0px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+
+/*product_r3_3*/
+.product_row3_3{
+    position:absolute;
+	left:780px;
+    top: 1220px;
+}
+.product_box9 { 
+	width:386px;
+	height:509px;
+	position:absolute;
+}
+.product_box_shadow9 { 
+	box-shadow:0px 10px 4px rgba(0, 0, 0, 0.25);
+	width:386px;
+	height:509px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+.product_text9 { 
+	width:336px;
+	height:152px;
+	position:absolute;
+	left:25px;
+	top:315px;
+}
+.product__price9 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:112px;
+	height:23px;
+	position:absolute;
+	left:0px;
+	top:129px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:24px;
+	letter-spacing:-1;
+	line-height:px;
+}
+.product__status9 { 
+	color:rgba(255, 70.12499392032623, 70.12499392032623, 1);
+	width:137px;
+	height:23px;
+	position:absolute;
+	left:199px;
+	top:129px;
+	font-family:"Poppins";
+	text-align:right;
+	font-size:12px;
+	letter-spacing:-1;
+	line-height:px;
+}
+.product__reviews9 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:149px;
+	height:20.91780662536621px;
+	position:absolute;
+	left:0px;
+	top:78.9520263671875px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+}
+.product__name9 { 
+	width:222px;
+	height:49.89951705932617px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.product__title9 { 
+	color:rgba(138.00000697374344, 138.00000697374344, 138.00000697374344, 1);
+	width:56px;
+	height:13.945205688476562px;
+	position:absolute;
+	left:0px;
+	top:35.95431137084961px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:px;
+}
+.product__info9 { 
+	color:rgba(72.24999949336052, 72.24999949336052, 72.24999949336052, 1);
+	width:222px;
+	height:35px;
+	position:absolute;
+	left:9.094947017729282e-13px;
+	top:0px;
+	font-family:"Poppins";
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+}
+.product_row3_img9 { 
+	width:179px;
+	height:261px;
+	position:absolute;
+	left:110px;
+	top:24px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+
+/*footor*/
+.footor{
+    top: 2800px;
+}
+
+.vec3{
+    top: 3300px;
+    left:0px;
+}
+.footer { 
+	width: 1903px;
+	height:509px;
+	position:absolute;
+    top: 3300px;
+    
+}
+.footer__img { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width: 1903px;
+	height:509px;
+	position:absolute;
+	left:0px;
+	top:0px;
+ 
+}
+.footer__text1 { 
+	color:rgba(0, 0, 0, 1);
+	width:536px;
+	height:64px;
+	position:absolute;
+	left:644px;
+	top:223px;
+	font-family:"Yeseva One";
+	text-align:left;
+	font-size:64px;
+	letter-spacing:0;
+}
+.footer__text2 { 
+	width:980px;
+	height:60px;
+	position:absolute;
+	left:229px;
+	top:341px;
+}
+.footer__text3 { 
+	color:rgba(0, 0, 0, 1);
+	width:348px;
+	height:24px;
+	position:absolute;
+	left:932px;
+	top:18px;
+	font-family:"Yeseva One";
+	text-align:left;
+	font-size:24px;
+	letter-spacing:0;
+}
+.footer__icon { 
+	width:211px;
+	height:60px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.footer_icon_img { 
+	width:195px;
+	height:55px;
+	position:absolute;
+	left:160px;
+	top:5px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+
+@media screen and (max-width: 768px) {
+    .menu__logo {
+        font-size: 32px; /* Уменьшите размер шрифта */
+    }
+
+    .menu__header__nav {
+        font-size: 16px; /* Уменьшите размер шрифта */
+    }
+
+    .menu___search-bar {
+        width: 95%; /* Увеличьте ширину поля поиска */
+        font-size: 14px; /* Уменьшите размер шрифта */
+    }
+
+    .slider .swiper-slide img {
+        width: 100%;
+        height: auto; /* Поддержка адаптивного дизайна */
+    }
+
+    .categories {
+        top: 600px; /* Корректируем положение для планшетов */
+        left: 20px; /* Для лучшей видимости на планшетах */
+    }
+
+    .product {
+        top: 950px; /* Корректируем положение для планшетов */
+        left: 20px; /* Для лучшей видимости на планшетах */
+    }
+
+    .product_box1 {
+        width: 250px; /* Уменьшаем размер блока для планшетов */
+        height: 350px; /* Уменьшаем высоту блока */
+    }
+
+    .product__price1 {
+        width: 65px;
+        height: 15px;
+        font-size: 12px;
+    }
+
+    .product__status1 {
+        width: 100px;
+        height: 15px;
+        font-size: 8px;
+    }
+
+    .product__reviews1 {
+        width: 110px;
+        height: 15px;
+        font-size: 8px;
+    }
+
+    .product__name1 {
+        width: 160px;
+        height: 33px;
+    }
+
+    .product__title1 {
+        width: 38px;
+        height: 9px;
+        font-size: 8px;
+    }
+
+    .product__info1 {
+        width: 160px;
+        height: 23px;
+        font-size: 14px;
+    }
+
+    .product_row1_img1 {
+        width: 170px;
+        height: 155px;
+    }
+
+	.product_row1_2 {
+        left: 20px; /* Сдвигаем блок ближе к левому краю */
+    }
+
+    .product_box2 {
+        width: 300px; /* Уменьшаем ширину блока */
+        height: 450px; /* Уменьшаем высоту блока */
+    }
+
+    .product_box_shadow2 {
+        width: 300px;
+        height: 450px;
+    }
+
+    .product_text2 {
+        width: 270px;
+        height: 132px;
+        left: 15px;
+        top: 288px;
+    }
+
+    .product__price2 {
+        width: 87px;
+        height: 21px;
+        font-size: 22px;
+    }
+
+    .product__status2 {
+        width: 123px;
+        height: 21px;
+        font-size: 11px;
+    }
+
+    .product__reviews2 {
+        width: 134px;
+        height: 19px;
+        font-size: 11px;
+    }
+
+    .product__name2 {
+        width: 230px;
+        height: 44px;
+    }
+
+    .product__title2 {
+        width: 51px;
+        height: 12px;
+        font-size: 11px;
+    }
+
+    .product__info2 {
+        width: 230px;
+        height: 31px;
+        font-size: 18px;
+    }
+
+    .product_row1_img2 {
+        width: 250px;
+        height: 228px;
+        left: 25px;
+        top: 10px;
+    }
+
+    /* Аналогично для product_row1_3 */
+    .product_row1_3 {
+        left: 340px; /* Размещаем рядом с product_row1_2 */
+    }
+
+    .product_box3 {
+        width: 300px;
+        height: 450px;
+    }
+
+    .product_box_shadow3 {
+        width: 300px;
+        height: 450px;
+    }
+
+    .product_text3 {
+        width: 270px;
+        height: 132px;
+        left: 15px;
+        top: 288px;
+    }
+
+    .product__price3 {
+        width: 97px;
+        height: 21px;
+        font-size: 22px;
+    }
+
+    .product__status3 {
+        width: 123px;
+        height: 21px;
+        font-size: 11px;
+    }
+
+    .product__reviews3 {
+        width: 134px;
+        height: 19px;
+        font-size: 11px;
+    }
+
+    .product__name3 {
+        width: 239px;
+        height: 44px;
+    }
+
+    .product__title3 {
+        width: 51px;
+        height: 12px;
+        font-size: 11px;
+    }
+
+    .product__info3 {
+        width: 239px;
+        height: 31px;
+        font-size: 18px;
+    }
+
+    .product_row1_img3 {
+        width: 211px;
+        height: 241px;
+        left: 45px;
+        top: 14px;
+    }
+
+	.product_row2_1 {
+        left: 20px; /* Сдвигаем блок ближе к левому краю */
+        top: 520px; /* Возможно потребуется скорректировать позицию */
+    }
+
+    .product_box4 {
+        width: 300px; /* Уменьшаем ширину блока */
+        height: 450px; /* Уменьшаем высоту блока */
+    }
+
+    .product_box_shadow4 {
+        width: 300px;
+        height: 450px;
+    }
+
+    .product_text4 {
+        width: 270px;
+        height: 132px;
+        left: 15px;
+        top: 288px;
+    }
+
+    .product__price4 {
+        width: 87px;
+        height: 21px;
+        font-size: 22px;
+    }
+
+    .product__status4 {
+        width: 123px;
+        height: 21px;
+        font-size: 11px;
+    }
+
+    .product__reviews4 {
+        width: 134px;
+        height: 19px;
+        font-size: 11px;
+    }
+
+    .product__name4 {
+        width: 256px;
+        height: 44px;
+    }
+
+    .product__title4 {
+        width: 51px;
+        height: 12px;
+        font-size: 11px;
+    }
+
+    .product__info4 {
+        width: 256px;
+        height: 31px;
+        font-size: 18px;
+    }
+
+    .product_row2_img4 {
+        width: 250px;
+        height: 228px;
+        left: 25px;
+        top: 10px;
+    }
+
+    /* Аналогично для product_row2_2 */
+    .product_row2_2 {
+        left: 340px; /* Размещаем рядом с product_row2_1 */
+        top: 520px; /* Возможно потребуется скорректировать позицию */
+    }
+
+    .product_box5 {
+        width: 300px;
+        height: 450px;
+    }
+
+    .product_box_shadow5 {
+        width: 300px;
+        height: 450px;
+    }
+
+    .product_text5 {
+        width: 270px;
+        height: 132px;
+        left: 15px;
+        top: 288px;
+    }
+
+    .product__price5 {
+        width: 89px;
+        height: 21px;
+        font-size: 22px;
+    }
+
+    .product__status5 {
+        width: 121px;
+        height: 21px;
+        font-size: 11px;
+    }
+
+    .product__reviews5 {
+        width: 134px;
+        height: 19px;
+        font-size: 11px;
+    }
+
+    .product__name5 {
+        width: 151px;
+        height: 44px;
+    }
+
+    .product__title5 {
+        width: 51px;
+        height: 12px;
+        font-size: 11px;
+    }
+
+    .product__info5 {
+        width: 151px;
+        height: 31px;
+        font-size: 18px;
+    }
+
+    .product_row2_img5 {
+        width: 211px;
+        height: 192px;
+        left: 45px;
+        top: 14px;
+    }
+
+    /* Аналогично для product_row2_3 */
+    .product_row2_3 {
+        left: 660px; /* Размещаем рядом с product_row2_2 */
+        top: 520px; /* Возможно потребуется скорректировать позицию */
+    }
+
+    .product_box6 {
+        width: 300px;
+        height: 450px;
+    }
+
+    .product_box_shadow6 {
+        width: 300px;
+        height: 450px;
+    }
+
+    .product_text6 {
+        width: 270px;
+        height: 132px;
+        left: 15px;
+        top: 288px;
+    }
+
+    .product__price6 {
+        width: 86px;
+        height: 21px;
+        font-size: 22px;
+    }
+
+    .product__status6 {
+        width: 121px;
+        height: 21px;
+        font-size: 11px;
+    }
+
+    .product__reviews6 {
+        width: 134px;
+        height: 19px;
+        font-size: 11px;
+    }
+
+    .product__name6 {
+        width: 146px;
+        height: 44px;
+    }
+
+    .product__title6 {
+        width: 51px;
+        height: 12px;
+        font-size: 11px;
+    }
+
+    .product__info6 {
+        width: 146px;
+        height: 31px;
+        font-size: 18px;
+    }
+
+    .product_row2_img6 {
+        width: 234px;
+        height: 213px;
+        left: 33px;
+        top: 10px;
+    }
+
+	.product_row3_1 {
+        left: 20px; /* Сдвигаем блок ближе к левому краю */
+        top: 1020px; /* Возможно потребуется скорректировать позицию */
+    }
+
+    .product_box7 {
+        width: 300px; /* Уменьшаем ширину блока */
+        height: 450px; /* Уменьшаем высоту блока */
+    }
+
+    .product_box_shadow7 {
+        width: 300px;
+        height: 450px;
+    }
+
+    .product_text7 {
+        width: 270px;
+        height: 132px;
+        left: 15px;
+        top: 288px;
+    }
+
+    .product__price7 {
+        width: 86px;
+        height: 21px;
+        font-size: 22px;
+    }
+
+    .product__status7 {
+        width: 117px;
+        height: 21px;
+        font-size: 11px;
+    }
+
+    .product__reviews7 {
+        width: 134px;
+        height: 19px;
+        font-size: 11px;
+    }
+
+    .product__name7 {
+        width: 235px;
+        height: 44px;
+    }
+
+    .product__title7 {
+        width: 51px;
+        height: 12px;
+        font-size: 11px;
+    }
+
+    .product__info7 {
+        width: 235px;
+        height: 31px;
+        font-size: 18px;
+    }
+
+    .product_row2_img7 {
+        width: 214px;
+        height: 193px;
+        left: 43px;
+        top: 63px;
+    }
+
+    /* Аналогично для product_row3_2 */
+    .product_row3_2 {
+        left: 340px; /* Размещаем рядом с product_row3_1 */
+        top: 1020px; /* Возможно потребуется скорректировать позицию */
+    }
+
+    .product_box8 {
+        width: 300px;
+        height: 450px;
+    }
+
+    .product_box_shadow8 {
+        width: 300px;
+        height: 450px;
+    }
+
+    .product_text8 {
+        width: 270px;
+        height: 132px;
+        left: 15px;
+        top: 288px;
+    }
+
+    .product__price8 {
+        width: 84px;
+        height: 21px;
+        font-size: 22px;
+    }
+
+    .product__status8 {
+        width: 121px;
+        height: 21px;
+        font-size: 11px;
+    }
+
+    .product__reviews8 {
+        width: 134px;
+        height: 19px;
+        font-size: 11px;
+    }
+
+    .product__name8 {
+        width: 237px;
+        height: 44px;
+    }
+
+    .product__title8 {
+        width: 51px;
+        height: 12px;
+        font-size: 11px;
+    }
+
+    .product__info8 {
+        width: 237px;
+        height: 31px;
+        font-size: 18px;
+    }
+
+    .product_row3_img8 {
+        width: 255px;
+        height: 225px;
+        left: 23px;
+        top: 0;
+    }
+
+    /* Аналогично для product_row3_3 */
+    .product_row3_3 {
+        left: 660px; /* Размещаем рядом с product_row3_2 */
+        top: 1020px; /* Возможно потребуется скорректировать позицию */
+    }
+
+    .product_box9 {
+        width: 300px;
+        height: 450px;
+    }
+
+    .product_box_shadow9 {
+        width: 300px;
+        height: 450px;
+    }
+
+    .product_text9 {
+        width: 270px;
+        height: 132px;
+        left: 15px;
+        top: 288px;
+    }
+
+    .product__price9 {
+        width: 92px;
+        height: 21px;
+        font-size: 22px;
+    }
+
+    .product__status9 {
+        width: 113px;
+        height: 21px;
+        font-size: 11px;
+    }
+
+    .product__reviews9 {
+        width: 134px;
+        height: 19px;
+        font-size: 11px;
+    }
+
+    .product__name9 {
+        width: 197px;
+        height: 44px;
+    }
+
+    .product__title9 {
+        width: 51px;
+        height: 12px;
+        font-size: 11px;
+    }
+
+    .product__info9 {
+        width: 197px;
+        height: 31px;
+        font-size: 18px;
+    }
+
+    .product_row3_img9 {
+        width: 189px;
+        height: 243px;
+        left: 56px;
+        top: 14px;
+    }
+
+    /* Футер */
+    .footer {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 3300px;
+    }
+
+    .footer__img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    .footer__text1 {
+        width: 80%;
+        height: 54px;
+        position: relative;
+        left: 10%;
+        top: 163px;
+        font-size: 48px;
+    }
+
+    .footer__text2 {
+        width: 80%;
+        height: 40px;
+        position: relative;
+        left: 10%;
+        top: 281px;
+    }
+
+    .footer__text3 {
+        width: 30%;
+        height: 18px;
+        position: relative;
+        left: 70%;
+        top: 8px;
+        font-size: 18px;
+    }
+
+    .footer__icon {
+        width: 20%;
+        height: 40px;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    .footer_icon_img {
+        width: 185px;
+        height: 40px;
+        position: relative;
+        left: 13px;
+        top: 5px;
+    }
+}
+
+
+
+
+/* Медиа-запросы для экранов размером 480px и меньше */
+@media screen and (max-width: 480px) {
+    .menu__logo {
+        font-size: 26px; /* Еще больше уменьшаем размер шрифта */
+    }
+
+    .menu__header__nav {
+        font-size: 12px; /* Минимизируем размер шрифта */
+    }
+
+    .menu___search-bar {
+        width: 95%;
+        font-size: 12px; /* Уменьшаем размер шрифта */
+    }
+
+    .slider .swiper-slide img {
+        width: 100%;
+        height: auto; /* Поддержка адаптивного дизайна */
+    }
+
+    .categories {
+        top: 550px; /* Корректируем положение для смартфонов */
+        left: 10px; /* Для лучшей видимости на смартфонах */
+    }
+
+    .product {
+        top: 850px; /* Корректируем положение для смартфонов */
+        left: 10px; /* Для лучшей видимости на смартфонах */
+    }
+
+    .product_box1 {
+        width: 220px; /* Уменьшаем размер блока для смартфонов */
+        height: 320px; /* Уменьшаем высоту блока */
+    }
+
+    .product__price1 {
+        width: 55px;
+        height: 12px;
+        font-size: 10px;
+    }
+
+    .product__status1 {
+        width: 85px;
+        height: 12px;
+        font-size: 6px;
+    }
+
+    .product__reviews1 {
+        width: 95px;
+        height: 12px;
+        font-size: 6px;
+    }
+
+    .product__name1 {
+        width: 145px;
+        height: 28px;
+    }
+
+    .product__title1 {
+        width: 34px;
+        height: 8px;
+        font-size: 6px;
+    }
+
+    .product__info1 {
+        width: 145px;
+        height: 19px;
+        font-size: 12px;
+    }
+
+    .product_row1_img1 {
+        width: 150px;
+        height: 135px;
+    }
+
+	.product_row1_2 {
+        left: 10px; /* Максимально сдвигаем к левому краю */
+    }
+
+    .product_box2 {
+        width: 220px; /* Уменьшаем еще сильнее */
+        height: 330px;
+    }
+
+    .product_box_shadow2 {
+        width: 220px;
+        height: 330px;
+    }
+
+    .product_text2 {
+        width: 200px;
+        height: 112px;
+        left: 10px;
+        top: 198px;
+    }
+
+    .product__price2 {
+        width: 77px;
+        height: 19px;
+        font-size: 20px;
+    }
+
+    .product__status2 {
+        width: 119px;
+        height: 19px;
+        font-size: 10px;
+    }
+
+    .product__reviews2 {
+        width: 119px;
+        height: 17px;
+        font-size: 10px;
+    }
+
+    .product__name2 {
+        width: 206px;
+        height: 39px;
+    }
+
+    .product__title2 {
+        width: 46px;
+        height: 11px;
+        font-size: 10px;
+    }
+
+    .product__info2 {
+        width: 206px;
+        height: 28px;
+        font-size: 16px;
+    }
+
+    .product_row1_img2 {
+        width: 200px;
+        height: 182px;
+        left: 10px;
+        top: 5px;
+    }
+
+    /* Аналогично для product_row1_3 */
+    .product_row1_3 {
+        left: 250px; /* Перемещаем ниже product_row1_2 */
+        top: 370px; /* Разносим блоки по вертикали */
+    }
+
+    .product_box3 {
+        width: 220px;
+        height: 330px;
+    }
+
+    .product_box_shadow3 {
+        width: 220px;
+        height: 330px;
+    }
+
+    .product_text3 {
+        width: 200px;
+        height: 112px;
+        left: 10px;
+        top: 198px;
+    }
+
+    .product__price3 {
+        width: 97px;
+        height: 19px;
+        font-size: 20px;
+    }
+
+    .product__status3 {
+        width: 123px;
+        height: 19px;
+        font-size: 10px;
+    }
+
+    .product__reviews3 {
+        width: 134px;
+        height: 17px;
+        font-size: 10px;
+    }
+
+    .product__name3 {
+        width: 219px;
+        height: 39px;
+    }
+
+    .product__title3 {
+        width: 51px;
+        height: 11px;
+        font-size: 10px;
+    }
+
+    .product__info3 {
+        width: 219px;
+        height: 28px;
+        font-size: 16px;
+    }
+
+    .product_row1_img3 {
+        width: 201px;
+        height: 229px;
+        left: 10px;
+        top: 5px;
+    }
+
+	.product_row2_1 {
+        left: 10px; /* Максимально сдвигаем к левому краю */
+        top: 420px; /* Возможно потребуется скорректировать позицию */
+    }
+
+    .product_box4 {
+        width: 220px; /* Уменьшаем еще сильнее */
+        height: 330px;
+    }
+
+    .product_box_shadow4 {
+        width: 220px;
+        height: 330px;
+    }
+
+    .product_text4 {
+        width: 200px;
+        height: 112px;
+        left: 10px;
+        top: 198px;
+    }
+
+    .product__price4 {
+        width: 67px;
+        height: 19px;
+        font-size: 20px;
+    }
+
+    .product__status4 {
+        width: 109px;
+        height: 19px;
+        font-size: 10px;
+    }
+
+    .product__reviews4 {
+        width: 109px;
+        height: 17px;
+        font-size: 10px;
+    }
+
+    .product__name4 {
+        width: 196px;
+        height: 39px;
+    }
+
+    .product__title4 {
+        width: 41px;
+        height: 11px;
+        font-size: 10px;
+    }
+
+    .product__info4 {
+        width: 196px;
+        height: 28px;
+        font-size: 16px;
+    }
+
+    .product_row2_img4 {
+        width: 150px;
+        height: 136px;
+        left: 35px;
+        top: 5px;
+    }
+
+    /* Аналогично для product_row2_2 */
+    .product_row2_2 {
+        left: 250px; /* Перемещаем ниже product_row2_1 */
+        top: 770px; /* Разносим блоки по вертикали */
+    }
+
+    .product_box5 {
+        width: 220px;
+        height: 330px;
+    }
+
+    .product_box_shadow5 {
+        width: 220px;
+        height: 330px;
+    }
+
+    .product_text5 {
+        width: 200px;
+        height: 112px;
+        left: 10px;
+        top: 198px;
+    }
+
+    .product__price5 {
+        width: 79px;
+        height: 19px;
+        font-size: 20px;
+    }
+
+    .product__status5 {
+        width: 111px;
+        height: 19px;
+        font-size: 10px;
+    }
+
+    .product__reviews5 {
+        width: 119px;
+        height: 17px;
+        font-size: 10px;
+    }
+
+    .product__name5 {
+        width: 131px;
+        height: 39px;
+    }
+
+    .product__title5 {
+        width: 41px;
+        height: 11px;
+        font-size: 10px;
+    }
+
+    .product__info5 {
+        width: 131px;
+        height: 28px;
+        font-size: 16px;
+    }
+
+    .product_row2_img5 {
+        width: 161px;
+        height: 147px;
+        left: 30px;
+        top: 5px;
+    }
+
+    /* Аналогично для product_row2_3 */
+    .product_row2_3 {
+        left: 10px; /* Перемещаем на следующую строку */
+        top: 1120px; /* Разносим блоки по вертикали */
+    }
+
+    .product_box6 {
+        width: 220px;
+        height: 330px;
+    }
+
+    .product_box_shadow6 {
+        width: 220px;
+        height: 330px;
+    }
+
+    .product_text6 {
+        width: 200px;
+        height: 112px;
+        left: 10px;
+        top: 198px;
+    }
+
+    .product__price6 {
+        width: 76px;
+        height: 19px;
+        font-size: 20px;
+    }
+
+    .product__status6 {
+        width: 101px;
+        height: 19px;
+        font-size: 10px;
+    }
+
+    .product__reviews6 {
+        width: 109px;
+        height: 17px;
+        font-size: 10px;
+    }
+
+    .product__name6 {
+        width: 126px;
+        height: 39px;
+    }
+
+    .product__title6 {
+        width: 41px;
+        height: 11px;
+        font-size: 10px;
+    }
+
+    .product__info6 {
+        width: 126px;
+        height: 28px;
+        font-size: 16px;
+    }
+
+    .product_row2_img6 {
+        width: 169px;
+        height: 153px;
+        left: 26px;
+        top: 5px;
+    }
+
+	.product_row3_1 {
+        left: 10px; /* Максимально сдвигаем к левому краю */
+        top: 820px; /* Возможно потребуется скорректировать позицию */
+    }
+
+    .product_box7 {
+        width: 220px; /* Уменьшаем еще сильнее */
+        height: 330px;
+    }
+
+    .product_box_shadow7 {
+        width: 220px;
+        height: 330px;
+    }
+
+    .product_text7 {
+        width: 200px;
+        height: 112px;
+        left: 10px;
+        top: 198px;
+    }
+
+    .product__price7 {
+        width: 66px;
+        height: 19px;
+        font-size: 20px;
+    }
+
+    .product__status7 {
+        width: 91px;
+        height: 19px;
+        font-size: 10px;
+    }
+
+    .product__reviews7 {
+        width: 94px;
+        height: 17px;
+        font-size: 10px;
+    }
+
+    .product__name7 {
+        width: 181px;
+        height: 39px;
+    }
+
+    .product__title7 {
+        width: 41px;
+        height: 11px;
+        font-size: 10px;
+    }
+
+    .product__info7 {
+        width: 181px;
+        height: 28px;
+        font-size: 16px;
+    }
+
+    .product_row2_img7 {
+        width: 164px;
+        height: 148px;
+        left: 28px;
+        top: 57px;
+    }
+
+    /* Аналогично для product_row3_2 */
+    .product_row3_2 {
+        left: 250px; /* Перемещаем ниже product_row3_1 */
+        top: 1170px; /* Разносим блоки по вертикали */
+    }
+
+    .product_box8 {
+        width: 220px;
+        height: 330px;
+    }
+
+    .product_box_shadow8 {
+        width: 220px;
+        height: 330px;
+    }
+
+    .product_text8 {
+        width: 200px;
+        height: 112px;
+        left: 10px;
+        top: 198px;
+    }
+
+    .product__price8 {
+        width: 65px;
+        height: 19px;
+        font-size: 20px;
+    }
+
+    .product__status8 {
+        width: 95px;
+        height: 19px;
+        font-size: 10px;
+    }
+
+    .product__reviews8 {
+        width: 104px;
+        height: 17px;
+        font-size: 10px;
+    }
+
+    .product__name8 {
+        width: 183px;
+        height: 39px;
+    }
+
+    .product__title8 {
+        width: 41px;
+        height: 11px;
+        font-size: 10px;
+    }
+
+    .product__info8 {
+        width: 183px;
+        height: 28px;
+        font-size: 16px;
+    }
+
+    .product_row3_img8 {
+        width: 195px;
+        height: 173px;
+        left: 13px;
+        top: 0;
+    }
+
+    /* Аналогично для product_row3_3 */
+    .product_row3_3 {
+        left: 10px; /* Перемещаем на следующую строку */
+        top: 1520px; /* Разносим блоки по вертикали */
+    }
+
+    .product_box9 {
+        width: 220px;
+        height: 330px;
+    }
+
+    .product_box_shadow9 {
+        width: 220px;
+        height: 330px;
+    }
+
+    .product_text9 {
+        width: 200px;
+        height: 112px;
+        left: 10px;
+        top: 198px;
+    }
+
+    .product__price9 {
+        width: 71px;
+        height: 19px;
+        font-size: 20px;
+    }
+
+    .product__status9 {
+        width: 88px;
+        height: 19px;
+        font-size: 10px;
+    }
+
+    .product__reviews9 {
+        width: 114px;
+        height: 17px;
+        font-size: 10px;
+    }
+
+    .product__name9 {
+        width: 171px;
+        height: 39px;
+    }
+
+    .product__title9 {
+        width: 41px;
+        height: 11px;
+        font-size: 10px;
+    }
+
+    .product__info9 {
+        width: 171px;
+        height: 28px;
+        font-size: 16px;
+    }
+
+    .product_row3_img9 {
+        width: 139px;
+        height: 202px;
+        left: 41px;
+        top: 14px;
+    }
+
+    /* Футер */
+    .footer {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 3300px;
+    }
+
+    .footer__img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    .footer__text1 {
+        width: 80%;
+        height: 40px;
+        position: relative;
+        left: 10%;
+        top: 128px;
+        font-size: 32px;
+    }
+
+    .footer__text2 {
+        width: 80%;
+        height: 30px;
+        position: relative;
+        left: 10%;
+        top: 218px;
+    }
+
+    .footer__text3 {
+        width: 50%;
+        height: 12px;
+        position: relative;
+        left: 50%;
+        top: 4px;
+        font-size: 12px;
+        transform: translateX(-50%);
+    }
+
+    .footer__icon {
+        width: 20%;
+        height: 30px;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    .footer_icon_img {
+        width: 143px;
+        height: 30px;
+        position: relative;
+        left: 9px;
+        top: 3px;
+    }
+}
